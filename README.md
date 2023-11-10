@@ -6,7 +6,7 @@ This fork is created just to create a pip package
 `pip install markdown-tables-extended`
 - In mkdocs.yaml `- markdown_tables_extended` goes in the  `markdown_extension:` section
 
-
+----
 
 This is an extended version of the [tables](https://python-markdown.github.io/extensions/tables/) extension of [Python-Markdown](https://python-markdown.github.io/). It contains addtions from the [cell_row_span](https://github.com/Neepawa/cell_row_span) extension and allows to create tables without header.
 
