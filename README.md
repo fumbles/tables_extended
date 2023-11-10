@@ -159,11 +159,11 @@ This extension does not accept any special configuration options.
 
 The extension can be used by either providing the markdown processor with an extension instance
 ```python
-from tables_extended import TableExtension
+from markdown_tables_extended import TableExtension
 
 markdown.markdown(some_text, extensions=[TableExtension()])
 ```
 or by using the extension name
 ```python
-markdown.markdown(some_text, extensions=['tables_extended'])
+markdown.markdown(some_text, extensions=['markdown_tables_extended'])
 ```
