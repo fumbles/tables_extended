@@ -1,0 +1,46 @@
+[project]
+name = "markdown_tables_extended"
+description = "This is an extended version of the tables extension of Python-Markdown. It contains addtions from the cell_row_span extension and allows to create tables without header."
+version = "0.1.2"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Daniel Riggins", email = "danielr.riggins@gmail.com" },
+]
+keywords = ["markdown_grid_tables", "extension", "plugin", "markdown", "mkdocs"] # max of 5 keywords
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development",
+    "Topic :: Text Processing :: Markup",
+    "Topic :: Text Processing :: Markup :: Markdown",
+]
+dependencies = [
+    "markdown>=3.0.0",
+]
+#dynamic = ["version"]
+
+
+[project.urls]
+homepage = "https://github.com/fumbles/tables_extended"
+documentation = "https://github.com/fumbles/tables_extended"
+repository = "https://github.com/fumbles/tables_extended"
+
+
+[build-system]
+requires = ["flit_scm"]
+build-backend = "flit_scm:buildapi"
+
+
+[tool.flit.sdist]
+exclude = [
+    ".gitignore",
+]
+
+[tool.setuptools_scm]
+write_to = "src/markdown_tables_extended/_version.py"
+
